@@ -26,15 +26,22 @@ async function sync() {
     body: JSON.stringify({ nodes: manifest.nodes })
   });
 
+  const responseText = await response.text();
+  console.log(`Status: ${response.status}`);
+  console.log(`Response: ${responseText}`);
+
   if (!response.ok) {
-    const error = await response.text();
-    console.error(`Sync failed: ${response.status} — ${error}`);
+    console.error(`Sync failed: ${response.status}`);
     process.exit(1);
   }
 
-  const result = await response.json();
-  console.log(`Done. ${result.success} synced, ${result.failed} failed.`);
-  if (result.failed > 0) process.exit(1);
+  try {
+    const result = JSON.parse(responseText);
+    console.log(`\nDone. ${result.success} synced, ${result.failed} failed.`);
+    if (result.failed > 0) process.exit(1);
+  } catch {
+    console.log('\nSync complete.');
+  }
 }
 
 sync();
