@@ -6,10 +6,8 @@ on:
     paths:
       - 'nodes/**'
       - 'scripts/**'
-      - 'manifest.json'
 
   workflow_dispatch:
-    # Allow manual trigger from GitHub UI
 
 jobs:
   build-and-sync:
@@ -22,7 +20,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Full history for git log dates
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -40,11 +38,14 @@ jobs:
           git config user.name "Node Hunter Bot"
           git config user.email "bot@basitq.cloud"
           git add manifest.json README.md
-          git diff --cached --quiet || git commit -m "chore: update manifest & readme [skip ci]"
-          git push
+          git diff --cached --quiet || {
+            git pull origin main --rebase
+            git commit -m "chore: update manifest & readme [skip ci]"
+            git push
+          }
 
       - name: Sync to Supabase
         env:
-          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+          SYNC_URL: ${{ secrets.SYNC_URL }}
+          SYNC_TOKEN: ${{ secrets.SYNC_TOKEN }}
         run: node scripts/sync-to-supabase.js
