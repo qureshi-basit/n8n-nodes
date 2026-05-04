@@ -1,0 +1,37 @@
+{
+  "$schema": "node-meta",
+  "_comment": "This file is created by the Node Hunter agent. The build-manifest script reads it.",
+
+  "slug": "n8n-nodes-example",
+  "name": "Example Service",
+  "package_name": "n8n-nodes-example",
+  "tagline": "One-line description of what this node does",
+  "description": "Full markdown description of the node. Explain what it does, what API it connects to, and key features. Can be multi-line.",
+  "pain_point": "The specific community pain point that triggered building this node. E.g., 'Users on Reddit and the n8n forum repeatedly asked for...'",
+  
+  "category": "Other",
+  "_category_options": ["AI & LLM", "Data & Scraping", "Communication", "CRM & Sales", "DevOps", "Finance", "Productivity", "Social Media", "Other"],
+  
+  "icon_emoji": "🔧",
+  "node_count": 1,
+  
+  "operations": [
+    "Operation One",
+    "Operation Two"
+  ],
+  
+  "credentials_type": "exampleApi",
+  "auth_type": "API Key",
+  "_auth_type_options": ["API Key", "OAuth2", "Basic Auth", "Header Auth", "None"],
+  
+  "n8n_version": "1.0+",
+  "node_version": "1.0.0",
+  
+  "npm_url": null,
+  
+  "tags": ["example", "api"],
+  "status": "stable",
+  "_status_options": ["stable", "beta", "experimental", "deprecated"],
+  
+  "is_featured": false
+}

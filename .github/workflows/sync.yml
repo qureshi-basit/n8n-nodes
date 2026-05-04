@@ -1,0 +1,50 @@
+name: Build & Sync Nodes
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'nodes/**'
+      - 'scripts/**'
+      - 'manifest.json'
+
+  workflow_dispatch:
+    # Allow manual trigger from GitHub UI
+
+jobs:
+  build-and-sync:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Full history for git log dates
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Build manifest
+        run: node scripts/build-manifest.js
+
+      - name: Update README table
+        run: node scripts/update-readme.js
+
+      - name: Commit manifest & README changes
+        run: |
+          git config user.name "Node Hunter Bot"
+          git config user.email "bot@basitq.cloud"
+          git add manifest.json README.md
+          git diff --cached --quiet || git commit -m "chore: update manifest & readme [skip ci]"
+          git push
+
+      - name: Sync to Supabase
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+        run: node scripts/sync-to-supabase.js
