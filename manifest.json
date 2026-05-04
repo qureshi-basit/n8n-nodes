@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "repo": "basitq/n8n-nodes",
+  "repo": "qureshi-basit/n8n-nodes",
   "website": "https://basitq.cloud/nodes",
   "total_nodes": 15,
-  "last_updated": "2026-05-04T02:06:19.370Z",
+  "last_updated": "2026-05-04T02:33:20.234Z",
   "nodes": [
     {
       "slug": "n8n-nodes-alchemyst-ai",
@@ -38,12 +38,12 @@
       "status": "beta",
       "is_featured": false,
       "folder": "n8n-nodes-alchemyst-ai",
-      "github_url": "https://github.com/basitq/n8n-nodes/tree/main/nodes/n8n-nodes-alchemyst-ai",
-      "raw_readme_url": "https://raw.githubusercontent.com/basitq/n8n-nodes/main/nodes/n8n-nodes-alchemyst-ai/README.md",
+      "github_url": "https://github.com/qureshi-basit/n8n-nodes/tree/main/nodes/n8n-nodes-alchemyst-ai",
+      "raw_readme_url": "https://raw.githubusercontent.com/qureshi-basit/n8n-nodes/main/nodes/n8n-nodes-alchemyst-ai/README.md",
       "demo_workflow_json": null,
       "has_readme": true,
       "published_at": "2026-05-04T07:04:00+05:00",
-      "updated_at": "2026-05-04T02:06:19.322Z"
+      "updated_at": "2026-05-04T02:33:20.175Z"
     },
     {
       "slug": "n8n-nodes-claude-pro",
@@ -72,12 +72,12 @@
       "status": "beta",
       "is_featured": false,
       "folder": "n8n-nodes-claude-pro",
-      "github_url": "https://github.com/basitq/n8n-nodes/tree/main/nodes/n8n-nodes-claude-pro",
-      "raw_readme_url": "https://raw.githubusercontent.com/basitq/n8n-nodes/main/nodes/n8n-nodes-claude-pro/README.md",
+      "github_url": "https://github.com/qureshi-basit/n8n-nodes/tree/main/nodes/n8n-nodes-claude-pro",
+      "raw_readme_url": "https://raw.githubusercontent.com/qureshi-basit/n8n-nodes/main/nodes/n8n-nodes-claude-pro/README.md",
       "demo_workflow_json": null,
       "has_readme": true,
       "published_at": "2026-05-04T07:04:00+05:00",
-      "updated_at": "2026-05-04T02:06:19.325Z"
+      "updated_at": "2026-05-04T02:33:20.178Z"
     },
     {
       "slug": "n8n-nodes-clay",
@@ -117,12 +117,12 @@
       "status": "beta",
       "is_featured": false,
       "folder": "n8n-nodes-clay",
-      "github_url": "https://github.com/basitq/n8n-nodes/tree/main/nodes/n8n-nodes-clay",
-      "raw_readme_url": "https://raw.githubusercontent.com/basitq/n8n-nodes/main/nodes/n8n-nodes-clay/README.md",
+      "github_url": "https://github.com/qureshi-basit/n8n-nodes/tree/main/nodes/n8n-nodes-clay",
+      "raw_readme_url": "https://raw.githubusercontent.com/qureshi-basit/n8n-nodes/main/nodes/n8n-nodes-clay/README.md",
       "demo_workflow_json": null,
       "has_readme": true,
       "published_at": "2026-05-04T07:04:00+05:00",
-      "updated_at": "2026-05-04T02:06:19.328Z"
+      "updated_at": "2026-05-04T02:33:20.183Z"
     },
     {
       "slug": "n8n-nodes-clickhouse",
@@ -155,12 +155,12 @@
       "status": "beta",
       "is_featured": false,
       "folder": "n8n-nodes-clickhouse",
-      "github_url": "https://github.com/basitq/n8n-nodes/tree/main/nodes/n8n-nodes-clickhouse",
-      "raw_readme_url": "https://raw.githubusercontent.com/basitq/n8n-nodes/main/nodes/n8n-nodes-clickhouse/README.md",
+      "github_url": "https://github.com/qureshi-basit/n8n-nodes/tree/main/nodes/n8n-nodes-clickhouse",
+      "raw_readme_url": "https://raw.githubusercontent.com/qureshi-basit/n8n-nodes/main/nodes/n8n-nodes-clickhouse/README.md",
       "demo_workflow_json": null,
       "has_readme": true,
       "published_at": "2026-05-04T07:04:00+05:00",
-      "updated_at": "2026-05-04T02:06:19.332Z"
+      "updated_at": "2026-05-04T02:33:20.186Z"
     },
     {
       "slug": "n8n-nodes-google-ads",
@@ -193,12 +193,12 @@
       "status": "beta",
       "is_featured": false,
       "folder": "n8n-nodes-google-ads",
-      "github_url": "https://github.com/basitq/n8n-nodes/tree/main/nodes/n8n-nodes-google-ads",
-      "raw_readme_url": "https://raw.githubusercontent.com/basitq/n8n-nodes/main/nodes/n8n-nodes-google-ads/README.md",
+      "github_url": "https://github.com/qureshi-basit/n8n-nodes/tree/main/nodes/n8n-nodes-google-ads",
+      "raw_readme_url": "https://raw.githubusercontent.com/qureshi-basit/n8n-nodes/main/nodes/n8n-nodes-google-ads/README.md",
       "demo_workflow_json": null,
       "has_readme": true,
       "published_at": "2026-05-04T07:04:00+05:00",
-      "updated_at": "2026-05-04T02:06:19.335Z"
+      "updated_at": "2026-05-04T02:33:20.191Z"
     },
     {
       "slug": "n8n-nodes-google-chat",
@@ -226,12 +226,12 @@
       "status": "beta",
       "is_featured": false,
       "folder": "n8n-nodes-google-chat",
-      "github_url": "https://github.com/basitq/n8n-nodes/tree/main/nodes/n8n-nodes-google-chat",
-      "raw_readme_url": "https://raw.githubusercontent.com/basitq/n8n-nodes/main/nodes/n8n-nodes-google-chat/README.md",
+      "github_url": "https://github.com/qureshi-basit/n8n-nodes/tree/main/nodes/n8n-nodes-google-chat",
+      "raw_readme_url": "https://raw.githubusercontent.com/qureshi-basit/n8n-nodes/main/nodes/n8n-nodes-google-chat/README.md",
       "demo_workflow_json": null,
       "has_readme": true,
       "published_at": "2026-05-04T07:04:00+05:00",
-      "updated_at": "2026-05-04T02:06:19.339Z"
+      "updated_at": "2026-05-04T02:33:20.197Z"
     },
     {
       "slug": "n8n-nodes-gpt-image-1-5",
@@ -262,12 +262,12 @@
       "status": "beta",
       "is_featured": false,
       "folder": "n8n-nodes-gpt-image-1-5",
-      "github_url": "https://github.com/basitq/n8n-nodes/tree/main/nodes/n8n-nodes-gpt-image-1-5",
-      "raw_readme_url": "https://raw.githubusercontent.com/basitq/n8n-nodes/main/nodes/n8n-nodes-gpt-image-1-5/README.md",
+      "github_url": "https://github.com/qureshi-basit/n8n-nodes/tree/main/nodes/n8n-nodes-gpt-image-1-5",
+      "raw_readme_url": "https://raw.githubusercontent.com/qureshi-basit/n8n-nodes/main/nodes/n8n-nodes-gpt-image-1-5/README.md",
       "demo_workflow_json": null,
       "has_readme": true,
       "published_at": "2026-05-04T07:04:00+05:00",
-      "updated_at": "2026-05-04T02:06:19.342Z"
+      "updated_at": "2026-05-04T02:33:20.201Z"
     },
     {
       "slug": "n8n-nodes-nano-banana",
@@ -301,12 +301,12 @@
       "status": "beta",
       "is_featured": false,
       "folder": "n8n-nodes-nano-banana",
-      "github_url": "https://github.com/basitq/n8n-nodes/tree/main/nodes/n8n-nodes-nano-banana",
-      "raw_readme_url": "https://raw.githubusercontent.com/basitq/n8n-nodes/main/nodes/n8n-nodes-nano-banana/README.md",
+      "github_url": "https://github.com/qureshi-basit/n8n-nodes/tree/main/nodes/n8n-nodes-nano-banana",
+      "raw_readme_url": "https://raw.githubusercontent.com/qureshi-basit/n8n-nodes/main/nodes/n8n-nodes-nano-banana/README.md",
       "demo_workflow_json": null,
       "has_readme": true,
       "published_at": "2026-05-04T07:04:00+05:00",
-      "updated_at": "2026-05-04T02:06:19.346Z"
+      "updated_at": "2026-05-04T02:33:20.205Z"
     },
     {
       "slug": "n8n-nodes-optimly",
@@ -340,12 +340,12 @@
       "status": "beta",
       "is_featured": false,
       "folder": "n8n-nodes-optimly",
-      "github_url": "https://github.com/basitq/n8n-nodes/tree/main/nodes/n8n-nodes-optimly",
-      "raw_readme_url": "https://raw.githubusercontent.com/basitq/n8n-nodes/main/nodes/n8n-nodes-optimly/README.md",
+      "github_url": "https://github.com/qureshi-basit/n8n-nodes/tree/main/nodes/n8n-nodes-optimly",
+      "raw_readme_url": "https://raw.githubusercontent.com/qureshi-basit/n8n-nodes/main/nodes/n8n-nodes-optimly/README.md",
       "demo_workflow_json": null,
       "has_readme": true,
       "published_at": "2026-05-04T07:04:00+05:00",
-      "updated_at": "2026-05-04T02:06:19.349Z"
+      "updated_at": "2026-05-04T02:33:20.209Z"
     },
     {
       "slug": "n8n-nodes-power-bi",
@@ -374,12 +374,12 @@
       "status": "beta",
       "is_featured": false,
       "folder": "n8n-nodes-power-bi",
-      "github_url": "https://github.com/basitq/n8n-nodes/tree/main/nodes/n8n-nodes-power-bi",
-      "raw_readme_url": "https://raw.githubusercontent.com/basitq/n8n-nodes/main/nodes/n8n-nodes-power-bi/README.md",
+      "github_url": "https://github.com/qureshi-basit/n8n-nodes/tree/main/nodes/n8n-nodes-power-bi",
+      "raw_readme_url": "https://raw.githubusercontent.com/qureshi-basit/n8n-nodes/main/nodes/n8n-nodes-power-bi/README.md",
       "demo_workflow_json": null,
       "has_readme": true,
       "published_at": "2026-05-04T07:04:00+05:00",
-      "updated_at": "2026-05-04T02:06:19.353Z"
+      "updated_at": "2026-05-04T02:33:20.213Z"
     },
     {
       "slug": "n8n-nodes-power-bi-v2",
@@ -409,12 +409,12 @@
       "status": "beta",
       "is_featured": false,
       "folder": "n8n-nodes-power-bi-v2",
-      "github_url": "https://github.com/basitq/n8n-nodes/tree/main/nodes/n8n-nodes-power-bi-v2",
-      "raw_readme_url": "https://raw.githubusercontent.com/basitq/n8n-nodes/main/nodes/n8n-nodes-power-bi-v2/README.md",
+      "github_url": "https://github.com/qureshi-basit/n8n-nodes/tree/main/nodes/n8n-nodes-power-bi-v2",
+      "raw_readme_url": "https://raw.githubusercontent.com/qureshi-basit/n8n-nodes/main/nodes/n8n-nodes-power-bi-v2/README.md",
       "demo_workflow_json": null,
       "has_readme": true,
       "published_at": "2026-05-04T07:04:00+05:00",
-      "updated_at": "2026-05-04T02:06:19.356Z"
+      "updated_at": "2026-05-04T02:33:20.218Z"
     },
     {
       "slug": "n8n-nodes-razorpay",
@@ -447,12 +447,12 @@
       "status": "beta",
       "is_featured": false,
       "folder": "n8n-nodes-razorpay",
-      "github_url": "https://github.com/basitq/n8n-nodes/tree/main/nodes/n8n-nodes-razorpay",
-      "raw_readme_url": "https://raw.githubusercontent.com/basitq/n8n-nodes/main/nodes/n8n-nodes-razorpay/README.md",
+      "github_url": "https://github.com/qureshi-basit/n8n-nodes/tree/main/nodes/n8n-nodes-razorpay",
+      "raw_readme_url": "https://raw.githubusercontent.com/qureshi-basit/n8n-nodes/main/nodes/n8n-nodes-razorpay/README.md",
       "demo_workflow_json": null,
       "has_readme": true,
       "published_at": "2026-05-04T07:04:00+05:00",
-      "updated_at": "2026-05-04T02:06:19.359Z"
+      "updated_at": "2026-05-04T02:33:20.223Z"
     },
     {
       "slug": "n8n-nodes-upload-to-url",
@@ -484,12 +484,12 @@
       "status": "beta",
       "is_featured": false,
       "folder": "n8n-nodes-upload-to-url",
-      "github_url": "https://github.com/basitq/n8n-nodes/tree/main/nodes/n8n-nodes-upload-to-url",
-      "raw_readme_url": "https://raw.githubusercontent.com/basitq/n8n-nodes/main/nodes/n8n-nodes-upload-to-url/README.md",
+      "github_url": "https://github.com/qureshi-basit/n8n-nodes/tree/main/nodes/n8n-nodes-upload-to-url",
+      "raw_readme_url": "https://raw.githubusercontent.com/qureshi-basit/n8n-nodes/main/nodes/n8n-nodes-upload-to-url/README.md",
       "demo_workflow_json": null,
       "has_readme": true,
       "published_at": "2026-05-04T07:04:00+05:00",
-      "updated_at": "2026-05-04T02:06:19.363Z"
+      "updated_at": "2026-05-04T02:33:20.226Z"
     },
     {
       "slug": "n8n-nodes-zep-memory",
@@ -523,12 +523,12 @@
       "status": "beta",
       "is_featured": false,
       "folder": "n8n-nodes-zep-memory",
-      "github_url": "https://github.com/basitq/n8n-nodes/tree/main/nodes/n8n-nodes-zep-memory",
-      "raw_readme_url": "https://raw.githubusercontent.com/basitq/n8n-nodes/main/nodes/n8n-nodes-zep-memory/README.md",
+      "github_url": "https://github.com/qureshi-basit/n8n-nodes/tree/main/nodes/n8n-nodes-zep-memory",
+      "raw_readme_url": "https://raw.githubusercontent.com/qureshi-basit/n8n-nodes/main/nodes/n8n-nodes-zep-memory/README.md",
       "demo_workflow_json": null,
       "has_readme": true,
       "published_at": "2026-05-04T07:04:00+05:00",
-      "updated_at": "2026-05-04T02:06:19.366Z"
+      "updated_at": "2026-05-04T02:33:20.229Z"
     },
     {
       "slug": "n8n-nodes-zep-memory-v2",
@@ -563,12 +563,12 @@
       "status": "beta",
       "is_featured": false,
       "folder": "n8n-nodes-zep-memory-v2",
-      "github_url": "https://github.com/basitq/n8n-nodes/tree/main/nodes/n8n-nodes-zep-memory-v2",
-      "raw_readme_url": "https://raw.githubusercontent.com/basitq/n8n-nodes/main/nodes/n8n-nodes-zep-memory-v2/README.md",
+      "github_url": "https://github.com/qureshi-basit/n8n-nodes/tree/main/nodes/n8n-nodes-zep-memory-v2",
+      "raw_readme_url": "https://raw.githubusercontent.com/qureshi-basit/n8n-nodes/main/nodes/n8n-nodes-zep-memory-v2/README.md",
       "demo_workflow_json": null,
       "has_readme": true,
       "published_at": "2026-05-04T07:04:00+05:00",
-      "updated_at": "2026-05-04T02:06:19.369Z"
+      "updated_at": "2026-05-04T02:33:20.234Z"
     }
   ]
 }

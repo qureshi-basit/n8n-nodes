@@ -13,7 +13,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const REPO_OWNER = 'basitq';
+const REPO_OWNER = 'qureshi-basit';
 const REPO_NAME = 'n8n-nodes';
 const NODES_DIR = path.join(__dirname, '..', 'nodes');
 const MANIFEST_PATH = path.join(__dirname, '..', 'manifest.json');
