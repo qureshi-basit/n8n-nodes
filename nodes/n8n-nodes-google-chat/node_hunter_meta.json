@@ -1,0 +1,23 @@
+{
+  "service": "Google Chat",
+  "request": {
+    "service_name": "Google Chat",
+    "description": "Integration to receive Google Chat messages in n8n via webhooks for automated responses",
+    "source_url": "https://reddit.com/r/n8n/comments/1n4zf16/how_to_receive_google_chat_messages_in_n8n_with/",
+    "source_platform": "reddit",
+    "upvotes": 1,
+    "mentions": 1,
+    "sample_quotes": [
+      "how can we actually receive new messages from a Google Chat space inside n8n"
+    ],
+    "discovered_at": "2026-04-06T12:24:21.934860+00:00"
+  },
+  "generated_at": "2026-04-06T12:33:38.016600+00:00",
+  "files": [
+    "nodes/GoogleChat/GoogleChat.node.ts",
+    "credentials/GoogleChatApi.credentials.ts",
+    "package.json",
+    "tsconfig.json",
+    "README.md"
+  ]
+}

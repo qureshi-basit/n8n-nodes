@@ -1,0 +1,20 @@
+{
+  "slug": "n8n-nodes-zep-memory-v2",
+  "name": "Zep Memory V2",
+  "package_name": "n8n-nodes-zep-memory",
+  "tagline": "n8n node for Zep Memory service - AI conversation memory management",
+  "description": "n8n node for Zep Memory service - AI conversation memory management",
+  "pain_point": "Community members requested a native n8n integration for Zep Memory V2 to avoid complex HTTP Request node setups with manual authentication handling.",
+  "category": "AI & LLM",
+  "icon_emoji": "🧠",
+  "node_count": 1,
+  "operations": ["Create","Get","Update","Delete","Search","Add"],
+  "credentials_type": "zepMemoryApi",
+  "auth_type": "API Key",
+  "n8n_version": "1.0+",
+  "node_version": "1.0.0",
+  "npm_url": null,
+  "tags": ["zep","memory","ai","conversation","chatbot"],
+  "status": "beta",
+  "is_featured": false
+}

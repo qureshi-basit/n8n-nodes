@@ -1,0 +1,24 @@
+{
+  "service": "GPT Image 1.5",
+  "request": {
+    "service_name": "GPT Image 1.5",
+    "description": "Image generation model integration for creating images from text prompts",
+    "source_url": "https://reddit.com/r/n8n/comments/1pqf793/easiest_way_to_integrate_gpt_image_15_image/",
+    "source_platform": "reddit",
+    "upvotes": 6,
+    "mentions": 1,
+    "sample_quotes": [
+      "I'm looking for the simplest and cleanest way to integrate the GPT Image 1.5 image generation model into an n8n workflow"
+    ],
+    "discovered_at": "2026-04-06T11:07:58.558072+00:00"
+  },
+  "generated_at": "2026-04-06T11:08:58.687598+00:00",
+  "files": [
+    "package.json",
+    "tsconfig.json",
+    "nodes/GPTImage15/GPTImage15.node.ts",
+    "credentials/GPTImage15Api.credentials.ts",
+    "README.md"
+  ],
+  "icon": null
+}

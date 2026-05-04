@@ -1,0 +1,20 @@
+{
+  "slug": "n8n-nodes-nano-banana",
+  "name": "Nano Banana",
+  "package_name": "n8n-nodes-nano-banana",
+  "tagline": "n8n community node for Nano Banana - AI image/video generation service for creating ad creatives and product visuals",
+  "description": "n8n community node for Nano Banana - AI image/video generation service for creating ad creatives and product visuals",
+  "pain_point": "Community members requested a native n8n integration for Nano Banana to avoid complex HTTP Request node setups with manual authentication handling.",
+  "category": "Communication",
+  "icon_emoji": "🍌",
+  "node_count": 1,
+  "operations": ["Generate","Get","Delete","Create","Update"],
+  "credentials_type": "nanoBananaApi",
+  "auth_type": "API Key",
+  "n8n_version": "1.0+",
+  "node_version": "0.1.0",
+  "npm_url": null,
+  "tags": ["ai","image-generation","video-generation","advertising","creative"],
+  "status": "beta",
+  "is_featured": false
+}

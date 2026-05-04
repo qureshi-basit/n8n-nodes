@@ -1,0 +1,20 @@
+{
+  "slug": "n8n-nodes-clickhouse",
+  "name": "Clickhouse",
+  "package_name": "n8n-nodes-clickhouse",
+  "tagline": "n8n community node for ClickHouse database operations",
+  "description": "n8n community node for ClickHouse database operations",
+  "pain_point": "Community members requested a native n8n integration for Clickhouse to avoid complex HTTP Request node setups with manual authentication handling.",
+  "category": "DevOps",
+  "icon_emoji": "🗄️",
+  "node_count": 1,
+  "operations": ["Execute Query","Insert","Select","Create Table","Drop Table","Auto-Map Input Data","Define Below for Each Column"],
+  "credentials_type": "clickHouseApi",
+  "auth_type": "API Key",
+  "n8n_version": "1.0+",
+  "node_version": "1.0.0",
+  "npm_url": null,
+  "tags": ["clickhouse","database"],
+  "status": "beta",
+  "is_featured": false
+}

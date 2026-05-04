@@ -1,0 +1,54 @@
+{
+  "name": "n8n-nodes-razorpay",
+  "version": "0.1.0",
+  "description": "Native Razorpay payment integration for n8n workflows",
+  "keywords": [
+    "n8n-community-node-package",
+    "razorpay",
+    "payments",
+    "payment-links",
+    "indian-payments"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "author": {
+    "name": "n8n Community",
+    "email": "hello@n8n.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/n8n-io/n8n-nodes-razorpay.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && npm run copy:assets",
+    "copy:assets": "cp -r nodes/Razorpay/*.png dist/nodes/Razorpay/ 2>/dev/null || :",
+    "dev": "tsc --watch",
+    "format": "prettier nodes credentials --write",
+    "lint": "eslint nodes credentials package.json",
+    "lintfix": "eslint nodes credentials package.json --fix",
+    "prepublishOnly": "npm run build && npm run lint -s"
+  },
+  "files": [
+    "dist"
+  ],
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "nodes": [
+      "dist/nodes/Razorpay/Razorpay.node.js"
+    ],
+    "credentials": [
+      "dist/credentials/RazorpayApi.credentials.js"
+    ]
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "~5.45.0",
+    "eslint-plugin-n8n-nodes-base": "~1.11.0",
+    "n8n-workflow": "*",
+    "prettier": "^2.7.1",
+    "typescript": "^5.7.3"
+  },
+  "peerDependencies": {
+    "n8n-workflow": "*"
+  }
+}

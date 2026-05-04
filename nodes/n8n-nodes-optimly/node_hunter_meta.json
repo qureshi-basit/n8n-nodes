@@ -1,0 +1,23 @@
+{
+  "service": "Optimly",
+  "request": {
+    "service_name": "Optimly",
+    "description": "Analytics node for AI workflows with HTTP compatibility to track LLM inputs/outputs, errors, token usage, and user frustration",
+    "source_url": "https://reddit.com/r/n8n/comments/1pd6kmh/i_built_an_analytics_node_for_ai_workflows_http/",
+    "source_platform": "reddit",
+    "upvotes": 0,
+    "mentions": 1,
+    "sample_quotes": [
+      "It's basically Google Analytics for LLMs. It captures inputs/outputs, flags errors, tracks token usage, and detects user frustration"
+    ],
+    "discovered_at": "2026-04-06T12:24:21.934850+00:00"
+  },
+  "generated_at": "2026-04-06T12:32:56.084641+00:00",
+  "files": [
+    "package.json",
+    "tsconfig.json",
+    "credentials/OptimlyApi.credentials.ts",
+    "nodes/Optimly/Optimly.node.ts",
+    "README.md"
+  ]
+}

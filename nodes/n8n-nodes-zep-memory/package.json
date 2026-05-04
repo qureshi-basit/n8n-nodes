@@ -1,0 +1,47 @@
+{
+    "name": "n8n-nodes-zep-memory",
+    "version": "0.1.0",
+    "description": "n8n community node for Zep Memory - AI memory service for workflows",
+    "keywords": [
+        "n8n-community-node-package",
+        "zep",
+        "memory",
+        "ai",
+        "llm"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/yourusername/n8n-nodes-zep-memory",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yourusername/n8n-nodes-zep-memory.git"
+    },
+    "main": "index.js",
+    "files": [
+        "dist"
+    ],
+    "n8n": {
+        "n8nNodesApiVersion": 1,
+        "nodes": [
+            "dist/nodes/ZepMemory/ZepMemory.node.js"
+        ],
+        "credentials": [
+            "dist/credentials/ZepMemoryApi.credentials.js"
+        ]
+    },
+    "scripts": {
+        "build": "n8n-node build",
+        "dev": "n8n-node dev",
+        "lint": "n8n-node lint",
+        "lintfix": "n8n-node lintfix",
+        "prepublishOnly": "npm run build && npm run lint -c .eslintrc.js nodes credentials package.json",
+        "release": "n8n-node release"
+    },
+    "devDependencies": {
+        "@n8n/node-cli": "latest",
+        "n8n-workflow": "*",
+        "typescript": "^5.7.3"
+    },
+    "peerDependencies": {
+        "n8n-workflow": "*"
+    }
+}

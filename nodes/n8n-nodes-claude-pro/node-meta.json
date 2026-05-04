@@ -1,0 +1,20 @@
+{
+  "slug": "n8n-nodes-claude-pro",
+  "name": "Claude Pro",
+  "package_name": "n8n-nodes-claude-pro",
+  "tagline": "n8n community node for Claude Pro/Max subscription integration",
+  "description": "n8n community node for Claude Pro/Max subscription integration",
+  "pain_point": "Community members requested a native n8n integration for Claude Pro to avoid complex HTTP Request node setups with manual authentication handling.",
+  "category": "AI & LLM",
+  "icon_emoji": "🤖",
+  "node_count": 1,
+  "operations": ["Send"],
+  "credentials_type": "claudeProApi",
+  "auth_type": "API Key",
+  "n8n_version": "1.0+",
+  "node_version": "1.0.0",
+  "npm_url": null,
+  "tags": ["claude","anthropic","ai","chatbot"],
+  "status": "beta",
+  "is_featured": false
+}

@@ -1,0 +1,38 @@
+{
+    "name": "n8n-nodes-gpt-image-1-5",
+    "version": "0.1.0",
+    "description": "n8n community node for GPT Image 1.5 image generation",
+    "keywords": [
+        "n8n-community-node-package",
+        "image-generation",
+        "ai",
+        "gpt"
+    ],
+    "license": "MIT",
+    "author": {
+        "name": "n8n Community",
+        "email": "community@n8n.io"
+    },
+    "main": "index.js",
+    "n8n": {
+        "n8nNodesApiVersion": 1,
+        "nodes": [
+            "dist/nodes/GPTImage15/GPTImage15.node.js"
+        ],
+        "credentials": [
+            "dist/credentials/GPTImage15Api.credentials.js"
+        ]
+    },
+    "scripts": {
+        "build": "tsc",
+        "dev": "tsc --watch",
+        "lint": "echo lint"
+    },
+    "devDependencies": {
+        "n8n-workflow": "*",
+        "typescript": "^5.7.3"
+    },
+    "peerDependencies": {
+        "n8n-workflow": "*"
+    }
+}

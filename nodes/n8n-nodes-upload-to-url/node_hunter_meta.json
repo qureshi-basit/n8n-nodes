@@ -1,0 +1,23 @@
+{
+  "service": "Upload to URL",
+  "request": {
+    "service_name": "Upload to URL",
+    "description": "Node that converts binary files to public CDN URLs with configurable expiration times",
+    "source_url": "https://reddit.com/r/n8n/comments/1rzrgnn/node_upload_any_file_get_a_public_cdn_url_now/",
+    "source_platform": "reddit",
+    "upvotes": 48,
+    "mentions": 1,
+    "sample_quotes": [
+      "It takes any binary file in your workflow and gives you back a public CDN URL"
+    ],
+    "discovered_at": "2026-04-06T12:24:21.934866+00:00"
+  },
+  "generated_at": "2026-04-06T12:25:08.764280+00:00",
+  "files": [
+    "nodes/UploadtoURL/UploadtoURL.node.ts",
+    "credentials/UploadtoURLApi.credentials.ts",
+    "package.json",
+    "tsconfig.json",
+    "README.md"
+  ]
+}

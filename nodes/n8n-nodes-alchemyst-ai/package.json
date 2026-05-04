@@ -1,0 +1,65 @@
+{
+	"name": "n8n-nodes-alchemyst-ai",
+	"version": "0.1.0",
+	"description": "n8n node for Alchemyst AI - Persistent memory for workflows",
+	"keywords": [
+		"n8n-community-node-package",
+		"n8n",
+		"alchemyst",
+		"ai",
+		"memory",
+		"persistence",
+		"search",
+		"llm"
+	],
+	"license": "MIT",
+	"homepage": "https://github.com/username/n8n-nodes-alchemyst-ai",
+	"author": {
+		"name": "Your Name",
+		"email": "your.email@example.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/username/n8n-nodes-alchemyst-ai.git"
+	},
+	"engines": {
+		"node": ">=18.10",
+		"pnpm": ">=9.1"
+	},
+	"packageManager": "pnpm@9.1.4",
+	"main": "dist/index.js",
+	"scripts": {
+		"build": "tsc && gulp build:icons",
+		"dev": "tsc --watch",
+		"format": "prettier --write . --ignore-path .gitignore",
+		"lint": "eslint . --ignore-path .gitignore",
+		"lintfix": "eslint . --fix --ignore-path .gitignore",
+		"prepublishOnly": "pnpm build && pnpm lint -c .eslintrc.prepublish.js"
+	},
+	"files": [
+		"dist"
+	],
+	"n8n": {
+		"n8nNodesApiVersion": 1,
+		"credentials": [
+			"dist/credentials/AlchemystAIApi.credentials.js"
+		],
+		"nodes": [
+			"dist/nodes/AlchemystAI/AlchemystAI.node.js"
+		]
+	},
+	"devDependencies": {
+		"@types/node": "^22.0.0",
+		"@typescript-eslint/eslint-plugin": "^7.15.0",
+		"@typescript-eslint/parser": "^7.15.0",
+		"eslint": "^8.56.0",
+		"eslint-plugin-n8n-nodes-base": "^1.16.1",
+		"gulp": "^4.0.2",
+		"n8n-workflow": "*",
+		"prettier": "^3.3.2",
+		"typescript": "^5.7.3"
+	},
+	"peerDependencies": {
+		"n8n-workflow": "*"
+	}
+}

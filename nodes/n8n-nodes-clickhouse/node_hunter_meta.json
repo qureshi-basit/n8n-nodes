@@ -1,0 +1,23 @@
+{
+  "service": "ClickHouse",
+  "request": {
+    "service_name": "ClickHouse",
+    "description": "Feature-complete ClickHouse database integration for seamless data operations in n8n workflows",
+    "source_url": "https://reddit.com/r/n8n/comments/1rrurwu/new_community_node_clickhouse_integration_for_n8n/",
+    "source_platform": "reddit",
+    "upvotes": 2,
+    "mentions": 1,
+    "sample_quotes": [
+      "I'm excited to share n8n-nodes-clickhouse-db - a feature-complete ClickHouse integration"
+    ],
+    "discovered_at": "2026-04-06T12:24:21.934843+00:00"
+  },
+  "generated_at": "2026-04-06T12:28:46.426656+00:00",
+  "files": [
+    "package.json",
+    "tsconfig.json",
+    "credentials/ClickHouseApi.credentials.ts",
+    "nodes/ClickHouse/ClickHouse.node.ts",
+    "README.md"
+  ]
+}

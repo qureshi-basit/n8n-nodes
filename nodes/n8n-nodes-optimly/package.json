@@ -1,0 +1,51 @@
+{
+  "name": "n8n-nodes-optimly",
+  "version": "1.0.0",
+  "description": "Analytics node for AI workflows with HTTP compatibility to track LLM inputs/outputs, errors, token usage, and user frustration",
+  "keywords": [
+    "n8n-community-node-package",
+    "optimly",
+    "analytics",
+    "llm",
+    "ai",
+    "tracking"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/yourusername/n8n-nodes-optimly",
+  "author": {
+    "name": "Your Name",
+    "email": "your.email@example.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/n8n-nodes-optimly.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "format": "prettier nodes credentials --write",
+    "lint": "eslint nodes credentials package.json",
+    "lintfix": "eslint nodes credentials package.json --fix",
+    "prepublishOnly": "npm run build && npm run lint -s"
+  },
+  "files": [
+    "dist"
+  ],
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "nodes": [
+      "dist/nodes/Optimly/Optimly.node.js"
+    ],
+    "credentials": [
+      "dist/credentials/OptimlyApi.credentials.js"
+    ]
+  },
+  "devDependencies": {
+    "n8n-workflow": "*",
+    "typescript": "^5.7.3"
+  },
+  "peerDependencies": {
+    "n8n-workflow": "*"
+  }
+}

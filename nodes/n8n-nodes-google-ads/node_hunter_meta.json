@@ -1,0 +1,23 @@
+{
+  "service": "Google Ads",
+  "request": {
+    "service_name": "Google Ads",
+    "description": "Integration with Google Ads API for advertising automation and campaign management",
+    "source_url": "https://reddit.com/r/n8n/comments/1mukei6/n8n_google_ads_integration/",
+    "source_platform": "reddit",
+    "upvotes": 3,
+    "mentions": 1,
+    "sample_quotes": [
+      "I tried integrating N8N and google ads"
+    ],
+    "discovered_at": "2026-04-06T12:24:21.934862+00:00"
+  },
+  "generated_at": "2026-04-06T12:27:46.742521+00:00",
+  "files": [
+    "package.json",
+    "tsconfig.json",
+    "credentials/GoogleAdsApi.credentials.ts",
+    "nodes/GoogleAds/GoogleAds.node.ts",
+    "README.md"
+  ]
+}

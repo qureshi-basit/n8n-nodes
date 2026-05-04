@@ -1,0 +1,20 @@
+{
+  "slug": "n8n-nodes-upload-to-url",
+  "name": "Upload To Url",
+  "package_name": "n8n-nodes-uploadtourl",
+  "tagline": "n8n node for uploading binary files to CDN and getting public URLs",
+  "description": "n8n node for uploading binary files to CDN and getting public URLs",
+  "pain_point": "Community members requested a native n8n integration for Upload To Url to avoid complex HTTP Request node setups with manual authentication handling.",
+  "category": "Productivity",
+  "icon_emoji": "📤",
+  "node_count": 1,
+  "operations": ["Upload File","Delete File","Get File Info"],
+  "credentials_type": "uploadtoURLApi",
+  "auth_type": "API Key",
+  "n8n_version": "1.0+",
+  "node_version": "1.0.0",
+  "npm_url": null,
+  "tags": ["n8n","upload","cdn","file-sharing","binary"],
+  "status": "beta",
+  "is_featured": false
+}

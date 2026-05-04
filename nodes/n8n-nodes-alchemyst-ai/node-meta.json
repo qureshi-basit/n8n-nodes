@@ -1,0 +1,20 @@
+{
+  "slug": "n8n-nodes-alchemyst-ai",
+  "name": "Alchemyst Ai",
+  "package_name": "n8n-nodes-alchemyst-ai",
+  "tagline": "n8n node for Alchemyst AI - Persistent memory for workflows",
+  "description": "n8n node for Alchemyst AI - Persistent memory for workflows",
+  "pain_point": "Community members requested a native n8n integration for Alchemyst Ai to avoid complex HTTP Request node setups with manual authentication handling.",
+  "category": "AI & LLM",
+  "icon_emoji": "🤖",
+  "node_count": 1,
+  "operations": ["Store Data","Search Data","List Collections","Delete Data"],
+  "credentials_type": "alchemystAIApi",
+  "auth_type": "API Key",
+  "n8n_version": "1.0+",
+  "node_version": "0.1.0",
+  "npm_url": null,
+  "tags": ["n8n","alchemyst","ai","memory","persistence","search","llm"],
+  "status": "beta",
+  "is_featured": false
+}

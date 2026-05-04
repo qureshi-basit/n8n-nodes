@@ -1,0 +1,23 @@
+{
+  "service": "Razorpay",
+  "request": {
+    "service_name": "Razorpay",
+    "description": "Native Razorpay payment integration for generating payment links and verifying completion within n8n workflows",
+    "source_url": "https://reddit.com/r/n8n/comments/1m9ygtm/ditch_that_extra_payment_server_native_razorpay/",
+    "source_platform": "reddit",
+    "upvotes": 2,
+    "mentions": 1,
+    "sample_quotes": [
+      "We've directly wired Razorpay into n8n, end-to-end: from generating payment links to verifying payment completion"
+    ],
+    "discovered_at": "2026-04-06T12:24:21.934859+00:00"
+  },
+  "generated_at": "2026-04-06T12:30:43.914030+00:00",
+  "files": [
+    "package.json",
+    "tsconfig.json",
+    "credentials/RazorpayApi.credentials.ts",
+    "nodes/Razorpay/Razorpay.node.ts",
+    "README.md"
+  ]
+}

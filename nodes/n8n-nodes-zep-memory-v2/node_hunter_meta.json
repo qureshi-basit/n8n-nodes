@@ -1,0 +1,23 @@
+{
+  "service": "Zep Memory",
+  "request": {
+    "service_name": "Zep Memory",
+    "description": "Memory service for AI workflows that was previously integrated but now requires HTTP nodes for connection",
+    "source_url": "https://reddit.com/r/n8n/comments/1n98t5u/how_to_connect_zep_memory_to_n8n_using_http_nodes/",
+    "source_platform": "reddit",
+    "upvotes": 2,
+    "mentions": 1,
+    "sample_quotes": [
+      "n8n removed direct Zep integration, but you can still use Zep's memory features with HTTP Request nodes"
+    ],
+    "discovered_at": "2026-04-06T12:24:21.934855+00:00"
+  },
+  "generated_at": "2026-04-06T12:29:38.512832+00:00",
+  "files": [
+    "package.json",
+    "tsconfig.json",
+    "credentials/ZepMemoryApi.credentials.ts",
+    "nodes/ZepMemory/ZepMemory.node.ts",
+    "README.md"
+  ]
+}

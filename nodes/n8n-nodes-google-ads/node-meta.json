@@ -1,0 +1,20 @@
+{
+  "slug": "n8n-nodes-google-ads",
+  "name": "Google Ads",
+  "package_name": "n8n-nodes-google-ads",
+  "tagline": "n8n community node for Google Ads API integration",
+  "description": "n8n community node for Google Ads API integration",
+  "pain_point": "Community members requested a native n8n integration for Google Ads to avoid complex HTTP Request node setups with manual authentication handling.",
+  "category": "CRM & Sales",
+  "icon_emoji": "🔍",
+  "node_count": 1,
+  "operations": ["Get All","Get","Create","Update","Delete","List Accessible Customers"],
+  "credentials_type": "googleAdsApi",
+  "auth_type": "API Key",
+  "n8n_version": "1.0+",
+  "node_version": "1.0.0",
+  "npm_url": null,
+  "tags": ["google-ads","advertising","campaign-management"],
+  "status": "beta",
+  "is_featured": false
+}

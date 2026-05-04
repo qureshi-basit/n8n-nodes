@@ -1,0 +1,58 @@
+{
+  "name": "n8n-nodes-uploadtourl",
+  "version": "1.0.0",
+  "description": "n8n node for uploading binary files to CDN and getting public URLs",
+  "keywords": [
+    "n8n-community-node-package",
+    "n8n",
+    "upload",
+    "cdn",
+    "file-sharing",
+    "binary"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/yourusername/n8n-nodes-uploadtourl",
+  "author": {
+    "name": "Your Name",
+    "email": "your.email@example.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/n8n-nodes-uploadtourl.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && gulp build:icons",
+    "dev": "tsc --watch",
+    "format": "prettier nodes credentials --write",
+    "lint": "eslint nodes credentials package.json",
+    "lintfix": "eslint nodes credentials package.json --fix",
+    "prepublishOnly": "npm run build && npm run lint -s"
+  },
+  "files": [
+    "dist"
+  ],
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "nodes": [
+      "dist/nodes/UploadtoURL/UploadtoURL.node.js"
+    ],
+    "credentials": [
+      "dist/credentials/UploadtoURLApi.credentials.js"
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.16",
+    "eslint": "^8.42.0",
+    "n8n-workflow": "*",
+    "prettier": "^2.7.1",
+    "typescript": "^5.7.3"
+  },
+  "peerDependencies": {
+    "n8n-workflow": "*"
+  },
+  "engines": {
+    "node": ">=18.10",
+    "pnpm": ">=8.6"
+  }
+}

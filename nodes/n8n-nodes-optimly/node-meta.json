@@ -1,0 +1,20 @@
+{
+  "slug": "n8n-nodes-optimly",
+  "name": "Optimly",
+  "package_name": "n8n-nodes-optimly",
+  "tagline": "Analytics node for AI workflows with HTTP compatibility to track LLM inputs/outputs, errors, token usage, and user frustration",
+  "description": "Analytics node for AI workflows with HTTP compatibility to track LLM inputs/outputs, errors, token usage, and user frustration",
+  "pain_point": "Community members requested a native n8n integration for Optimly to avoid complex HTTP Request node setups with manual authentication handling.",
+  "category": "AI & LLM",
+  "icon_emoji": "⚡",
+  "node_count": 1,
+  "operations": ["Track Event","Track LLM Interaction","Track Error","Track User Frustration","Get Analytics"],
+  "credentials_type": "optimlyApi",
+  "auth_type": "API Key",
+  "n8n_version": "1.0+",
+  "node_version": "1.0.0",
+  "npm_url": null,
+  "tags": ["optimly","analytics","llm","ai","tracking"],
+  "status": "beta",
+  "is_featured": false
+}

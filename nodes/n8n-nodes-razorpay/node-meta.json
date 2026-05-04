@@ -1,0 +1,20 @@
+{
+  "slug": "n8n-nodes-razorpay",
+  "name": "Razorpay",
+  "package_name": "n8n-nodes-razorpay",
+  "tagline": "Native Razorpay payment integration for n8n workflows",
+  "description": "Native Razorpay payment integration for n8n workflows",
+  "pain_point": "Community members requested a native n8n integration for Razorpay to avoid complex HTTP Request node setups with manual authentication handling.",
+  "category": "Finance",
+  "icon_emoji": "💳",
+  "node_count": 1,
+  "operations": ["Create","Get","Get All","Cancel","Capture"],
+  "credentials_type": "razorpayApi",
+  "auth_type": "API Key",
+  "n8n_version": "1.0+",
+  "node_version": "0.1.0",
+  "npm_url": null,
+  "tags": ["razorpay","payments","payment-links","indian-payments"],
+  "status": "beta",
+  "is_featured": false
+}

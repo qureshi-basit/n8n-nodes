@@ -1,0 +1,25 @@
+{
+  "service": "Nano Banana",
+  "request": {
+    "service_name": "Nano Banana",
+    "description": "AI image/video generation service for creating ad creatives and product visuals",
+    "source_url": "https://reddit.com/r/n8n/comments/1nbtaj4/i_built_a_facebook_ig_ad_cloning_system_that/",
+    "source_platform": "reddit",
+    "upvotes": 215,
+    "mentions": 4,
+    "sample_quotes": [
+      "finally uses Nano Banana for generating the final ad creative",
+      "Nano Banana (Gemini 2.5 Flash Image) to generate consistent, photorealistic product visuals"
+    ],
+    "discovered_at": "2026-04-06T11:51:02.984446+00:00"
+  },
+  "generated_at": "2026-04-06T11:51:59.803497+00:00",
+  "files": [
+    "package.json",
+    "tsconfig.json",
+    "nodes/NanoBanana/NanoBanana.node.ts",
+    "credentials/NanoBananaApi.credentials.ts",
+    "README.md"
+  ],
+  "icon": null
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "n8n-nodes-power-bi-v2",
+  "name": "Power Bi V2",
+  "package_name": "n8n-nodes-powerbi",
+  "tagline": "n8n node for Power BI integration with AI reasoning capabilities for querying models and automated insights",
+  "description": "n8n node for Power BI integration with AI reasoning capabilities for querying models and automated insights",
+  "pain_point": "Community members requested a native n8n integration for Power Bi V2 to avoid complex HTTP Request node setups with manual authentication handling.",
+  "category": "Productivity",
+  "icon_emoji": "📊",
+  "node_count": 1,
+  "operations": ["Get All","Get","Query","Export","Lead Enrichment","Deal Analysis","Custom Query"],
+  "credentials_type": "powerBIApi",
+  "auth_type": "API Key",
+  "n8n_version": "1.0+",
+  "node_version": "1.0.0",
+  "npm_url": null,
+  "tags": [],
+  "status": "beta",
+  "is_featured": false
+}

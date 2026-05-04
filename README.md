@@ -16,6 +16,21 @@ Research-driven n8n community nodes. Each one solves a real gap identified throu
 <!-- NODES_TABLE_START -->
 | Node | Description | Version | Status |
 |------|-------------|---------|--------|
+| [🤖 **Alchemyst Ai**](./nodes/n8n-nodes-alchemyst-ai) | n8n node for Alchemyst AI - Persistent memory for workflows | 0.1.0 | ![beta](https://img.shields.io/badge/beta-f39c12) |
+| [🤖 **Claude Pro**](./nodes/n8n-nodes-claude-pro) | n8n community node for Claude Pro/Max subscription integration | 1.0.0 | ![beta](https://img.shields.io/badge/beta-f39c12) |
+| [🧱 **Clay**](./nodes/n8n-nodes-clay) | n8n community node for Clay - Data enrichment and lead generation platform | 0.1.0 | ![beta](https://img.shields.io/badge/beta-f39c12) |
+| [🗄️ **Clickhouse**](./nodes/n8n-nodes-clickhouse) | n8n community node for ClickHouse database operations | 1.0.0 | ![beta](https://img.shields.io/badge/beta-f39c12) |
+| [🔍 **Google Ads**](./nodes/n8n-nodes-google-ads) | n8n community node for Google Ads API integration | 1.0.0 | ![beta](https://img.shields.io/badge/beta-f39c12) |
+| [🔍 **Google Chat**](./nodes/n8n-nodes-google-chat) | n8n node for Google Chat integration | 1.0.0 | ![beta](https://img.shields.io/badge/beta-f39c12) |
+| [🤖 **Gpt Image 1 5**](./nodes/n8n-nodes-gpt-image-1-5) | n8n community node for GPT Image 1.5 image generation | 0.1.0 | ![beta](https://img.shields.io/badge/beta-f39c12) |
+| [🍌 **Nano Banana**](./nodes/n8n-nodes-nano-banana) | n8n community node for Nano Banana - AI image/video generation service for creating ad creatives and product visuals | 0.1.0 | ![beta](https://img.shields.io/badge/beta-f39c12) |
+| [⚡ **Optimly**](./nodes/n8n-nodes-optimly) | Analytics node for AI workflows with HTTP compatibility to track LLM inputs/outputs, errors, token usage, and user frustration | 1.0.0 | ![beta](https://img.shields.io/badge/beta-f39c12) |
+| [📊 **Power Bi**](./nodes/n8n-nodes-power-bi) | n8n community node for Power BI API integration | 0.1.0 | ![beta](https://img.shields.io/badge/beta-f39c12) |
+| [📊 **Power Bi V2**](./nodes/n8n-nodes-power-bi-v2) | n8n node for Power BI integration with AI reasoning capabilities for querying models and automated insights | 1.0.0 | ![beta](https://img.shields.io/badge/beta-f39c12) |
+| [💳 **Razorpay**](./nodes/n8n-nodes-razorpay) | Native Razorpay payment integration for n8n workflows | 0.1.0 | ![beta](https://img.shields.io/badge/beta-f39c12) |
+| [📤 **Upload To Url**](./nodes/n8n-nodes-upload-to-url) | n8n node for uploading binary files to CDN and getting public URLs | 1.0.0 | ![beta](https://img.shields.io/badge/beta-f39c12) |
+| [🧠 **Zep Memory**](./nodes/n8n-nodes-zep-memory) | n8n community node for Zep Memory - AI memory service for workflows | 0.1.0 | ![beta](https://img.shields.io/badge/beta-f39c12) |
+| [🧠 **Zep Memory V2**](./nodes/n8n-nodes-zep-memory-v2) | n8n node for Zep Memory service - AI conversation memory management | 1.0.0 | ![beta](https://img.shields.io/badge/beta-f39c12) |
 <!-- NODES_TABLE_END -->
 
 ---

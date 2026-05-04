@@ -1,0 +1,22 @@
+{
+  "service": "Clay",
+  "request": {
+    "service_name": "Clay",
+    "description": "Data enrichment and lead generation platform integration",
+    "source_url": "",
+    "source_platform": "reddit",
+    "upvotes": 0,
+    "mentions": 0,
+    "sample_quotes": [],
+    "discovered_at": "2026-04-06T11:07:58.558062+00:00"
+  },
+  "generated_at": "2026-04-06T11:10:37.647754+00:00",
+  "files": [
+    "package.json",
+    "tsconfig.json",
+    "credentials/ClayApi.credentials.ts",
+    "nodes/Clay/Clay.node.ts",
+    "README.md"
+  ],
+  "icon": null
+}

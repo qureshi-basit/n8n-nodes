@@ -1,0 +1,24 @@
+{
+  "service": "Power BI",
+  "request": {
+    "service_name": "Power BI",
+    "description": "AI reasoning node for querying Power BI models with automated insights",
+    "source_url": "https://reddit.com/r/n8n/comments/1qebvh4/would_an_ai_reasoning_node_for_power_bi_be_useful/",
+    "source_platform": "reddit",
+    "upvotes": 1,
+    "mentions": 1,
+    "sample_quotes": [
+      "Imagine a workflow node in n8n that can query your Power BI model with AI reasoning"
+    ],
+    "discovered_at": "2026-04-06T11:07:58.558070+00:00"
+  },
+  "generated_at": "2026-04-06T11:09:42.808404+00:00",
+  "files": [
+    "package.json",
+    "tsconfig.json",
+    "nodes/PowerBI/PowerBI.node.ts",
+    "credentials/PowerBIApi.credentials.ts",
+    "README.md"
+  ],
+  "icon": null
+}

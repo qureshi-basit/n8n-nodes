@@ -1,0 +1,51 @@
+{
+  "name": "n8n-nodes-zep-memory",
+  "version": "1.0.0",
+  "description": "n8n node for Zep Memory service - AI conversation memory management",
+  "keywords": [
+    "n8n-community-node-package",
+    "zep",
+    "memory",
+    "ai",
+    "conversation",
+    "chatbot"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "author": {
+    "name": "Community",
+    "email": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "format": "prettier nodes credentials --write",
+    "lint": "eslint nodes credentials --ext .ts",
+    "lintfix": "eslint nodes credentials --ext .ts --fix",
+    "prepublishOnly": "npm run build && npm run lint"
+  },
+  "files": [
+    "dist"
+  ],
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "nodes": [
+      "dist/nodes/ZepMemory/ZepMemory.node.js"
+    ],
+    "credentials": [
+      "dist/credentials/ZepMemoryApi.credentials.js"
+    ]
+  },
+  "devDependencies": {
+    "n8n-workflow": "*",
+    "typescript": "^5.7.3"
+  },
+  "peerDependencies": {
+    "n8n-workflow": "*"
+  }
+}

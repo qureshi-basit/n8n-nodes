@@ -1,0 +1,23 @@
+{
+  "service": "Claude Pro",
+  "request": {
+    "service_name": "Claude Pro",
+    "description": "Community node for Claude Pro/Max subscription integration without requiring Claude Code server installation",
+    "source_url": "https://reddit.com/r/n8n/comments/1rlpwzs/introduction_to_n8nnodesclaudepro/",
+    "source_platform": "reddit",
+    "upvotes": 19,
+    "mentions": 1,
+    "sample_quotes": [
+      "I have created Claude Pro/Max based AI model node in N8n"
+    ],
+    "discovered_at": "2026-04-06T12:24:21.934864+00:00"
+  },
+  "generated_at": "2026-04-06T12:25:50.960631+00:00",
+  "files": [
+    "package.json",
+    "tsconfig.json",
+    "credentials/ClaudeProApi.credentials.ts",
+    "nodes/ClaudePro/ClaudePro.node.ts",
+    "README.md"
+  ]
+}

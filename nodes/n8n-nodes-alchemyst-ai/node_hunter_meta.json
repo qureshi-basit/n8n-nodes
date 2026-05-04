@@ -1,0 +1,23 @@
+{
+  "service": "Alchemyst AI",
+  "request": {
+    "service_name": "Alchemyst AI",
+    "description": "Integration that provides persistent memory for n8n workflows to store and search data from any LLM step",
+    "source_url": "https://reddit.com/r/n8n/comments/1p71egw/we_just_launched_the_alchemyst_ai_integration_for/",
+    "source_platform": "reddit",
+    "upvotes": 18,
+    "mentions": 1,
+    "sample_quotes": [
+      "lets n8n have persistent memory now. You can store anything from your workflows (forms, chats, logs, CRM data, notes) and then search it later from any LLM step"
+    ],
+    "discovered_at": "2026-04-06T12:24:21.934853+00:00"
+  },
+  "generated_at": "2026-04-06T12:26:32.308100+00:00",
+  "files": [
+    "nodes/AlchemystAI/AlchemystAI.node.ts",
+    "credentials/AlchemystAIApi.credentials.ts",
+    "package.json",
+    "tsconfig.json",
+    "README.md"
+  ]
+}

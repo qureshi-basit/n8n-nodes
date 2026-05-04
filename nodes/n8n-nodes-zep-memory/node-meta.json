@@ -1,0 +1,20 @@
+{
+  "slug": "n8n-nodes-zep-memory",
+  "name": "Zep Memory",
+  "package_name": "n8n-nodes-zep-memory",
+  "tagline": "n8n community node for Zep Memory - AI memory service for workflows",
+  "description": "n8n community node for Zep Memory - AI memory service for workflows",
+  "pain_point": "Community members requested a native n8n integration for Zep Memory to avoid complex HTTP Request node setups with manual authentication handling.",
+  "category": "AI & LLM",
+  "icon_emoji": "🧠",
+  "node_count": 1,
+  "operations": ["Create","Delete","Get","Update","Add","Search"],
+  "credentials_type": "zepMemoryApi",
+  "auth_type": "API Key",
+  "n8n_version": "1.0+",
+  "node_version": "0.1.0",
+  "npm_url": null,
+  "tags": ["zep","memory","ai","llm"],
+  "status": "beta",
+  "is_featured": false
+}

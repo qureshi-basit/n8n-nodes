@@ -1,0 +1,48 @@
+{
+  "name": "n8n-nodes-clickhouse",
+  "version": "1.0.0",
+  "description": "n8n community node for ClickHouse database operations",
+  "keywords": [
+    "n8n-community-node-package",
+    "clickhouse",
+    "database"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/user/n8n-nodes-clickhouse",
+  "author": {
+    "name": "n8n Community",
+    "email": "community@n8n.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/user/n8n-nodes-clickhouse.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "format": "prettier nodes credentials --write",
+    "lint": "eslint nodes credentials package.json",
+    "lintfix": "eslint nodes credentials package.json --fix",
+    "prepublishOnly": "npm run build && npm run lint -s"
+  },
+  "files": [
+    "dist"
+  ],
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "nodes": [
+      "dist/nodes/ClickHouse/ClickHouse.node.js"
+    ],
+    "credentials": [
+      "dist/credentials/ClickHouseApi.credentials.js"
+    ]
+  },
+  "devDependencies": {
+    "n8n-workflow": "*",
+    "typescript": "^5.7.3"
+  },
+  "peerDependencies": {
+    "n8n-workflow": "*"
+  }
+}

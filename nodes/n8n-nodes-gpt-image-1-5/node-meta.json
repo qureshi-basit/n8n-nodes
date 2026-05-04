@@ -1,0 +1,20 @@
+{
+  "slug": "n8n-nodes-gpt-image-1-5",
+  "name": "Gpt Image 1 5",
+  "package_name": "n8n-nodes-gpt-image-1-5",
+  "tagline": "n8n community node for GPT Image 1.5 image generation",
+  "description": "n8n community node for GPT Image 1.5 image generation",
+  "pain_point": "Community members requested a native n8n integration for Gpt Image 1 5 to avoid complex HTTP Request node setups with manual authentication handling.",
+  "category": "AI & LLM",
+  "icon_emoji": "🤖",
+  "node_count": 1,
+  "operations": ["Generate Image","Generate Variations","Edit Image","Get Generation Status"],
+  "credentials_type": "gPTImage15Api",
+  "auth_type": "API Key",
+  "n8n_version": "1.0+",
+  "node_version": "0.1.0",
+  "npm_url": null,
+  "tags": ["image-generation","ai","gpt"],
+  "status": "beta",
+  "is_featured": false
+}
